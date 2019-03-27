@@ -1,8 +1,35 @@
+:root {
+  --grid-width: 20%;
+  --color-blue:   #2099E7;
+  --color-cobalt: #1C567B;
+  --color-green:  #25D344;
+  --color-purple: #650EF7;
+  --color-red:    #E53838;
+  --color-gray:   #A09A9A;
+  --color-white:  #FFFFFF;
+  --color-black:  #000000;
+  --color-seafoam:#3CB9C6;
+  --color-teal:   #3F6971;
+  --color-meblue:   #558DC6;
+  --color-teal:   #3F6971;
+  --color-teal:   #3F6971;
+  --color-teal:   #3F6971;
+  --color-teal:   #3F6971;
+
+
+  --wide: 75%;
+  --narrow: 25%;
+  --font-size: 18px;
+}
+
+
+
+
 body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
   margin:0;
-  background-color:#f4f4f4;
+  background-color: var(--color-gray);
 }
 
 /* Global */
@@ -19,32 +46,32 @@ ul{
 
 .button_1{
   height:38px;
-  background:#e8491d;
+  background: var(--color-meblue);
   border:0;
   padding-left: 20px;
   padding-right:20px;
-  color:#ffffff;
+  color:      var(--color-white);
 }
 
 .dark{
   padding:15px;
-  background:#35424a;
-  color:#ffffff;
+  background:var(--color-black);
+  color:var(--color-white);
   margin-top:10px;
   margin-bottom:10px;
 }
 
 /* Header **/
 header{
-  background:#35424a;
-  color:#ffffff;
+  background: var(--color-meblue);
+  color:      var(--color-meblue);
   padding-top:30px;
   min-height:70px;
-  border-bottom:#e8491d 3px solid;
+  border-bottom:var(--color-black) 3px solid;
 }
 
 header a{
-  color:#ffffff;
+  color:var(--color-black);
   text-decoration:none;
   text-transform: uppercase;
   font-size:16px;
@@ -70,12 +97,12 @@ header nav{
 }
 
 header .highlight, header .current a{
-  color:#e8491d;
+  color:var(--color-white);
   font-weight:bold;
 }
 
 header a:hover{
-  color:#cccccc;
+  color:var(--color-cobalt);
   font-weight:bold;
 }
 
@@ -84,7 +111,7 @@ header a:hover{
   min-height:400px;
   background:url('../img/showcase.jpg') no-repeat 0 -400px;
   text-align:center;
-  color:#ffffff;
+  color:var(--color-white);
 }
 
 #showcase h1{
@@ -99,9 +126,9 @@ header a:hover{
 
 /* Newsletter */
 #newsletter{
-  padding:15px;
-  color:#ffffff;
-  background:#35424a
+  padding:5px;
+  color:var(--color-black);
+  background:var(--color-white);
 }
 
 #newsletter h1{
@@ -157,16 +184,19 @@ article#main-col{
 ul#services li{
   list-style: none;
   padding:20px;
-  border: #cccccc solid 1px;
+  border: var(--color-black) solid 1px;
   margin-bottom:5px;
-  background:#e6e6e6;
+  background:var(--color-black);
 }
 
 footer{
   padding:20px;
   margin-top:20px;
-  color:#ffffff;
-  background-color:#e8491d;
+  color:var(--color-black);
+  background-color: var(--color-cobalt);
+
+
+
   text-align: center;
 }
 
