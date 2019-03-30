@@ -109,7 +109,6 @@ header a:hover{
 
 /* Showcase */
 #showcase{
-
   max-width:100%;
   max-height:50%;
   /*min-height:400px;*/
@@ -117,6 +116,19 @@ header a:hover{
   text-align:center;
   color:var(--color-white);
 }
+
+
+#showcase2{
+  max-width:100%;
+  max-height:100%;
+  background:url('../img/ResumeImage1.jpg') no-repeat 0 -400px;
+  text-align:center;
+  color:var(--color-white);
+}
+
+
+
+
 
 #showcase h1{
   margin-top:100px;
@@ -165,6 +177,26 @@ header a:hover{
 #boxes .box img{
   width:90px;
 }
+
+#boxes2{
+  margin-top: 20px;
+
+}
+
+#boxes2 .box{
+  float:left;
+  width:100%;
+  /*padding:5px;*/
+}
+
+#boxes2 .box img{
+  max-width:400%;
+  max-height:400%;
+}
+
+
+
+
 
 /* Sidebar */
 aside#sidebar{
